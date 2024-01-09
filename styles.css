@@ -1,3 +1,8 @@
+
+body{
+    font-family: "Merriweather-Black", Helvetica;
+
+}
 /* header styles */
 header{
     color: aliceblue;
@@ -9,7 +14,7 @@ header{
     width: 1320px;
     height: 482px;
     border-radius: 16px;
-    background: url('./images/Banner\ Image.png') #30031d4d;
+    background: url('./images/Banner\ Image.png') #c4c3c3;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size:cover;
@@ -17,9 +22,6 @@ header{
     margin: auto;
     margin-top: 50px;
     padding-top: 120px;
-    
-
-
 
 }
 
@@ -40,6 +42,146 @@ header{
     margin: 0px 350px;
 }
 
+/* discount */
+.discount-head1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.discount-para{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.discount-head2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.discount-image{
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
 
+/* welcome-party */
+.welcome-party-section{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: url('./images/Vectorrr.png') #30031d4d;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 50px;
+
+    /* column alignment */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-party1{
+    margin-left: 120px;
+}
+.welcome-party2{
+    margin-right: 120px;
+}
+.welcome-partyh1{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome-p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.welcome-a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* schedule */
+.schedule-section{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.schedule-span{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    /* font-weight: 500px; */
+    /* line-height: 25px; */
+    text-transform: capitalize;
+}
+.schedule-section-p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+}
+.schedule-btn{
+    display: flex;
+    color: #FFF;
+    font: size 25px; ;
+    padding: 16px 32px;
+    
+    gap: 10px;
+    border-radius: 10px;
+    background: #F00;
+    margin-left: auto;
+    margin-right: auto;
+}
+.schedule-btn-txt{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
  
