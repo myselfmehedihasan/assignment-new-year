@@ -1,21 +1,45 @@
-/* common shared styles*/
-body{
-    background-image: url('./images/Banner\ Image.png');
-    width: 1300px;
-    height: 600px;
-    background-position: bottom, top left;
-    background-repeat: no-repeat;
-}
-
-
-.heading{
+/* header styles */
+header{
     color: aliceblue;
     font-family: "Merriweather-Black", Helvetica;
     text-align: center;
     margin-top: 100px; ;
 }
- .greetings{
-    text-align: center;
-
- }
+.header-banner{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: url('./images/Banner\ Image.png') #30031d4d;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 120px;
     
+
+
+
+}
+
+.h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 80px 350px 15px;
+}
+.h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px 350px;
+}
+
+
+
+ 
