@@ -1,23 +1,25 @@
-
-body{
+body {
     font-family: "Merriweather-Black", Helvetica;
 
 }
+
 /* header styles */
-header{
+header {
     color: aliceblue;
     font-family: "Merriweather-Black", Helvetica;
     text-align: center;
-    margin-top: 100px; ;
+    margin-top: 100px;
+    ;
 }
-.header-banner{
-    width: 1320px;
+
+.header-banner {
+    width: 1450px;
     height: 482px;
     border-radius: 16px;
     background: url('./images/Banner\ Image.png') #c4c3c3;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     margin: auto;
     margin-top: 50px;
@@ -25,7 +27,7 @@ header{
 
 }
 
-.h2{
+.h2 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -33,7 +35,8 @@ header{
     font-weight: 400;
     margin: 80px 350px 15px;
 }
-.h1{
+
+.h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -43,7 +46,7 @@ header{
 }
 
 /* discount */
-.discount-head1{
+.discount-head1 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -51,7 +54,8 @@ header{
     font-weight: 700;
     margin-top: 100px;
 }
-.discount-para{
+
+.discount-para {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -59,7 +63,8 @@ header{
     font-weight: 500;
     margin-top: 48px;
 }
-.discount-head2{
+
+.discount-head2 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -67,7 +72,8 @@ header{
     font-weight: 700;
     margin-top: 10px;
 }
-.discount-image{
+
+.discount-image {
     width: 802.9px;
     height: 500px;
     display: block;
@@ -77,30 +83,33 @@ header{
 }
 
 /* welcome-party */
-.welcome-party-section{
-    width: 1320px;
+.welcome-party-section {
+    width: 1450px;
     height: 600px;
     border-radius: 16px;
     background: url('./images/Vectorrr.png') #30031d4d;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     margin: auto;
     margin-top: 50px;
 
-    /* column alignment */
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.welcome-party1{
+
+.welcome-party1 {
     margin-left: 120px;
 }
-.welcome-party2{
+
+.welcome-party2 {
     margin-right: 120px;
 }
-.welcome-partyh1{
+
+.welcome-partyh1 {
     width: 642px;
     color: #FFF;
     font-family: Merriweather;
@@ -109,7 +118,8 @@ header{
     line-height: 88px;
     letter-spacing: 7.04px;
 }
-.welcome-p{
+
+.welcome-p {
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -118,7 +128,8 @@ header{
     font-weight: 400;
     line-height: 30px;
 }
-.welcome-a{
+
+.welcome-a {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -131,20 +142,22 @@ header{
 }
 
 /* schedule */
-.schedule-section{
+.schedule-section {
     width: 1320px;
     height: 482px;
     border-radius: 16px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size:cover;
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */
     background-position: center;
     margin: auto;
     margin-top: 50px;
-    
+    padding: 50px;
+
 }
-.schedule-span{
+
+.schedule-span {
     color: #F00;
     text-align: center;
     font-size: 32px;
@@ -152,7 +165,8 @@ header{
     /* line-height: 25px; */
     text-transform: capitalize;
 }
-.schedule-section-p{
+
+.schedule-section-p {
     color: #070211;
     font-family: Inter;
     font-size: 25px;
@@ -161,19 +175,22 @@ header{
     text-align: center;
     padding-top: 100px;
 }
-.schedule-btn{
+
+.schedule-btn {
     display: flex;
     color: #FFF;
-    font: size 25px; ;
+    font: size 25px;
+    ;
     padding: 16px 32px;
-    
+
     gap: 10px;
     border-radius: 10px;
     background: #F00;
     margin-left: auto;
     margin-right: auto;
 }
-.schedule-btn-txt{
+
+.schedule-btn-txt {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -184,4 +201,23 @@ header{
     text-decoration: none;
 }
 
- 
+.gift {
+    margin-top: 120px;
+    padding: 120px 450px;
+    font-size: 24px;
+    color: #F00;
+}
+
+#gift-h1 {
+    font-size: 48px;
+    padding: 0px 450px;
+    line-height: 10px;
+}
+
+#portfolio {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 450px;
+}
