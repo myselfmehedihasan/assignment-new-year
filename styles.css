@@ -1,0 +1,21 @@
+/* common shared styles*/
+body{
+    background-image: url('./images/Banner\ Image.png');
+    width: 1300px;
+    height: 600px;
+    background-position: bottom, top left;
+    background-repeat: no-repeat;
+}
+
+
+.heading{
+    color: aliceblue;
+    font-family: "Merriweather-Black", Helvetica;
+    text-align: center;
+    margin-top: 100px; ;
+}
+ .greetings{
+    text-align: center;
+
+ }
+    
